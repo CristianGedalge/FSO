@@ -6,7 +6,7 @@ sequenceDiagram
 
    Note right of browser: This browser calling the POST method when clicking the button
 
-   browser->>server POST https://studies.cs.helsinki.fi/exampleapp/spa
+   browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/spa
    activate server
    server->>browser: [{the data entered with its date}]
    deactivate server
